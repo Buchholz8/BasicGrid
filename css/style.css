@@ -5,6 +5,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr;
     place-content: center;
+    grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
 }
 #titlelinks {
     justify-self: end;
@@ -13,16 +14,20 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr;
     place-content: center;
+    grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+
 }
 .seal {
     display: grid;
     grid-template-columns: 1fr 1fr;
     place-content: center;
+    grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
 }
 footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     place-content: center;
+    grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
 }
 #footerlinks {
     display: grid;
