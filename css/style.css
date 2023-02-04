@@ -1,33 +1,39 @@
 body {
     display: grid;
+    place-items: center;
 }
 header {
+    width: 100%;
+    min-height: 10vh;
     display: grid;
-    grid-template-columns: 1fr 1fr;
     place-content: center;
-    grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 #titlelinks {
     justify-self: end;
 }
+main {
+    min-height: 80vh;
+    display: grid;
+    place-items: center;
+    width: 90%;
+}
 .birds {
     display: grid;
-    grid-template-columns: 1fr 1fr;
     place-content: center;
-    grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
-
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 .seal {
     display: grid;
-    grid-template-columns: 1fr 1fr;
     place-content: center;
-    grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 footer{
+    width: 100%;
+    min-height: 10vh;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
     place-content: center;
-    grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 #footerlinks {
     display: grid;
