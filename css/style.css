@@ -1,0 +1,29 @@
+body {
+    display: grid;
+}
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-content: center;
+}
+#titlelinks {
+    justify-self: end;
+}
+.birds {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-content: center;
+}
+.seal {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-content: center;
+}
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-content: center;
+}
+#footerlinks {
+    display: grid;
+}
